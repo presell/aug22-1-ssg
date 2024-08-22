@@ -293,7 +293,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
             data-plasmic-name={"logo2"}
             data-plasmic-override={overrides.logo2}
             className={classNames("__wab_instance", sty.logo2)}
-            editable={true}
             field={"logo"}
             slug={args.slug}
             type={"image"}
@@ -445,7 +444,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
               data-plasmic-name={"text14"}
               data-plasmic-override={overrides.text14}
               className={classNames("__wab_instance", sty.text14)}
-              editable={true}
               field={"text1"}
               slug={args.slug}
               type={"text"}
@@ -469,7 +467,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
               data-plasmic-override={overrides.text23}
               className={classNames("__wab_instance", sty.text23)}
               color={"black"}
-              editable={true}
               field={"text2"}
               fontSize={"_22Px"}
               fontWeight={"medium"}
@@ -495,7 +492,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
               data-plasmic-override={overrides.text32}
               className={classNames("__wab_instance", sty.text32)}
               color={"black"}
-              editable={true}
               field={"text3"}
               fontSize={"_16Px"}
               fontWeight={"normal"}
@@ -982,7 +978,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                     data-plasmic-override={overrides.text24}
                     className={classNames("__wab_instance", sty.text24)}
                     color={"white"}
-                    editable={true}
                     field={"text6"}
                     fontSize={"_22Px"}
                     fontWeight={"medium"}
@@ -1054,7 +1049,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-name={"text15"}
                 data-plasmic-override={overrides.text15}
                 className={classNames("__wab_instance", sty.text15)}
-                editable={true}
                 field={"text1"}
                 slug={args.slug}
                 type={"text"}
@@ -1080,7 +1074,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                   data-plasmic-override={overrides.text25}
                   className={classNames("__wab_instance", sty.text25)}
                   color={"black"}
-                  editable={true}
                   field={"text15"}
                   fontSize={"_22Px"}
                   fontWeight={"medium"}
@@ -1108,7 +1101,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                   data-plasmic-override={overrides.text33}
                   className={classNames("__wab_instance", sty.text33)}
                   color={"black"}
-                  editable={true}
                   field={"text16"}
                   fontSize={"_16Px"}
                   fontWeight={"normal"}
@@ -1153,12 +1145,11 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                     data-plasmic-override={overrides.text26}
                     className={classNames("__wab_instance", sty.text26)}
                     color={"white"}
-                    editable={true}
                     field={"text17"}
                     fontSize={
                       hasVariant(globalVariants, "screen", "mobileOnly")
                         ? "_16Px"
-                        : "_22Px"
+                        : "_18Px"
                     }
                     fontWeight={"medium"}
                     slug={args.slug}
@@ -1215,7 +1206,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
               data-plasmic-override={overrides.image13}
               borderRadius={"_10Px"}
               className={classNames("__wab_instance", sty.image13)}
-              editable={true}
               field={"image1"}
               slug={args.slug}
               type={"image"}
@@ -1226,7 +1216,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-name={"text73"}
                 data-plasmic-override={overrides.text73}
                 className={classNames("__wab_instance", sty.text73)}
-                editable={true}
                 field={"text7"}
                 fontSize={"_25Px"}
                 fontWeight={"bold"}
@@ -1239,7 +1228,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-override={overrides.text83}
                 className={classNames("__wab_instance", sty.text83)}
                 color={"darkGrey"}
-                editable={true}
                 field={"text8"}
                 fontSize={"_16Px"}
                 fontWeight={"normal"}
@@ -1260,7 +1248,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-name={"image22"}
                 data-plasmic-override={overrides.image22}
                 className={classNames("__wab_instance", sty.image22)}
-                editable={true}
                 field={"image2"}
                 slug={args.slug}
                 type={"image"}
@@ -1271,7 +1258,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-override={overrides.text92}
                 className={classNames("__wab_instance", sty.text92)}
                 color={"darkGrey"}
-                editable={true}
                 field={"text9"}
                 fontSize={"_18Px"}
                 fontWeight={"normal"}
@@ -1284,7 +1270,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-name={"image32"}
                 data-plasmic-override={overrides.image32}
                 className={classNames("__wab_instance", sty.image32)}
-                editable={true}
                 field={"image2"}
                 slug={args.slug}
                 type={"image"}
@@ -1295,7 +1280,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-override={overrides.text102}
                 className={classNames("__wab_instance", sty.text102)}
                 color={"darkGrey"}
-                editable={true}
                 field={"text10"}
                 fontSize={"_18Px"}
                 fontWeight={"normal"}
@@ -1308,7 +1292,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-name={"image42"}
                 data-plasmic-override={overrides.image42}
                 className={classNames("__wab_instance", sty.image42)}
-                editable={true}
                 field={"image2"}
                 slug={args.slug}
                 type={"image"}
@@ -1319,7 +1302,6 @@ function PlasmicSqueezePlasmicCmsHypernova2__RenderFunc(props: {
                 data-plasmic-override={overrides.text112}
                 className={classNames("__wab_instance", sty.text112)}
                 color={"darkGrey"}
-                editable={true}
                 field={"text11"}
                 fontSize={"_18Px"}
                 fontWeight={"normal"}
